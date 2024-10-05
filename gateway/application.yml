@@ -9,6 +9,8 @@ eureka:
     instance:
       preferIpAddress: true
 spring:
+  application:
+    name: gateway
   cloud:
     gateway:
       mvc:
