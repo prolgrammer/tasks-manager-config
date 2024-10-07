@@ -3,6 +3,6 @@ eureka:
     fetchRegistry: true
     registerWithEureka: false
     serviceUrl:
-      defaultZone: discovery-server:8761/eureka
+      defaultZone: http://discovery-server:8761/eureka
     instance:
       preferIpAddress: true
