@@ -7,12 +7,6 @@ spring:
     url: jdbc:postgresql://postgresdb:5432/auth_service
     username: postgres
     password: 1234
-  jpa:
-    hibernate:
-      show-sql: true
-      ddl-auto: validate
-  flyway:
-    locations: classpath:/db/migration
 app:
   sign-up:
     admin:
