@@ -12,7 +12,7 @@ spring:
       show-sql: true
 flyway:
   locations:
-    - ./db/migration
+    - root/db/migration
 
 app:
   jwt:
