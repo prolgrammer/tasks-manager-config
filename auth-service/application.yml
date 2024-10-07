@@ -20,4 +20,7 @@ app:
   register:
     admin:
       password: 1234
+logging:
+  level:
+    org.flyway: DEBUG
 
