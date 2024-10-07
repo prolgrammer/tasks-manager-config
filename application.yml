@@ -12,3 +12,5 @@ app:
     expiration: 2592000
     issuer: spring-app-tasks-manager
     subject: user-details
+  gateway:
+    host: http://gateway:8080
