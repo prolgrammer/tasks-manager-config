@@ -11,7 +11,7 @@ spring:
     hibernate:
       show-sql: true
   flyway:
-    locations: ./db/migration
+    locations: classpath:/db/migration
 
 app:
   jwt:
