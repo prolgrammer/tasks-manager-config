@@ -6,3 +6,9 @@ eureka:
       defaultZone: http://discovery-server:8761/eureka
     instance:
       preferIpAddress: true
+app:
+  jwt:
+    secret: 1234
+    expiration: 2592000
+    issuer: spring-app-tasks-manager
+    subject: user-details
