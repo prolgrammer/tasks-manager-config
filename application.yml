@@ -13,4 +13,5 @@ app:
     issuer: spring-app-tasks-manager
     subject: user-details
   gateway:
+    service-secret: 1234
     host: http://gateway:8080
