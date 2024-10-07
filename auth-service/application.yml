@@ -9,7 +9,6 @@ spring:
     password: 1234
   jpa:
     hibernate:
-      ddl-auto: validate
       show-sql: true
 
 app:
