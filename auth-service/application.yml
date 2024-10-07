@@ -13,7 +13,7 @@ spring:
       ddl-auto: validate
   flyway:
     locations: classpath:/db/migration
-    
+app:
   register:
     admin:
       password: 1234
