@@ -15,5 +15,5 @@ spring:
             uri: lb://uuid-service
             predicates:
               - Path=/api/uuid
-              - Header=x-service-secret, ^secret$
+              - Header=x-service-secret, ^1234$
         
