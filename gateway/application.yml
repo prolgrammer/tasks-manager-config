@@ -30,6 +30,6 @@ spring:
           lower-case-service-id: true
 logging:
   level:
-    org.springframework.cloud.gateway: INFO
+    org.springframework.web: INFO
 
         
