@@ -4,7 +4,7 @@ spring:
   application:
     name: users.service
   datasource:
-    url: jdbc:postgresql://postgresdb:5432/users_service
+    url: jdbc:postgresql://postgresdb:5432/user_service
     username: postgres
     password: 1234
   kafka:
