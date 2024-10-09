@@ -2,11 +2,11 @@ server:
   port: 8080
 spring:
   application:
-    name: users-service
+    name: users.service
   datasource:
     url: jdbc:postgresql://postgresdb:5432/users_service
     username: postgres
     password: 1234
   kafka:
     consumer:
-      group-id: users-service
+      group-id: users.service
