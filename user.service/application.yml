@@ -9,4 +9,4 @@ spring:
     password: 1234
   kafka:
     consumer:
-      group-id: users.service
+      group-id: user.service
