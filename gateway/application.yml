@@ -24,4 +24,9 @@ spring:
             uri: lb://user.service
             predicates:
               - Path=/api/users/**
+      discovery:
+        locator:
+          enabled: 'true'
+          lower-case-service-id: true
+
         
