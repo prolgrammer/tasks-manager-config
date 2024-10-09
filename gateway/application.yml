@@ -30,6 +30,6 @@ spring:
           lower-case-service-id: true
 logging:
   level:
-    org.springframework.web: INFO
+    org.springframework.web: DEBUG
 
         
