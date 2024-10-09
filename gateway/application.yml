@@ -2,8 +2,8 @@ server:
   port: 8080
 eureka:
   client:
-    register-with-eureka: false
-    fetch-registry: true
+    registerWithEureka: false
+    fetchRegistry: true
 spring:
   application:
     name: gateway
