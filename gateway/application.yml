@@ -25,8 +25,8 @@ spring:
             predicates:
               - Path=/api/users/**
       discovery:
-        locator:
-          enabled: 'true'
-          lower-case-service-id: true
+          locator:
+            enabled: 'true'
+            lower-case-service-id: true
 
         
