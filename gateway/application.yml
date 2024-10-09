@@ -14,7 +14,7 @@ spring:
           - id: uuid_route
             uri: lb://uuid.service
             predicates:
-              - Path=/api/uuid
+              - Path=/api/uuid/**
               - Header=x-service-secret, ^1234$
           - id: user_route
             uri: lb://user.service
