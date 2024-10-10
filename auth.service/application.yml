@@ -7,6 +7,9 @@ spring:
     url: jdbc:postgresql://postgresdb:5432/auth_service
     username: postgres
     password: 1234
+  kafka:
+    consumer:
+      group-id: auth.service
 app:
   sign-up:
     admin:
