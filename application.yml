@@ -27,7 +27,7 @@ spring:
       key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
       value-deserializer: org.springframework.kafka.support.serializer.JsonDeserializer
       properties:
-        "[spring.json.trusted.packages]": "dev.ivanov.tasks_manager.*"
+        "[spring.json.trusted.packages]": "dev.ivanov.tasks_manager.events"
     
   flyway:
     locations: classpath:/db/migration
