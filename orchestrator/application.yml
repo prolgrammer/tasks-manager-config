@@ -6,9 +6,3 @@ spring:
   kafka:
     consumer:
       group-id: orchestrator
-lettuce:
-  datasorce:
-    host: redis
-    port: 6379
-    username: redis
-    password: 1234
