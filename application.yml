@@ -7,7 +7,8 @@ eureka:
 app:
   jwt:
     secret: 1234
-    expiration: 2592000
+    expiration-refresh: 2592000
+    expiration-access: 300
     issuer: spring-app-tasks-manager
     subject: user-details
   gateway:
