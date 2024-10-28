@@ -7,7 +7,8 @@ spring:
     url: jdbc:postgresql://postgresdb:5432/auth_service
     username: postgres
     password: 1234
-  redis:
+  data:
+    redis:
       database: 1
       host: redis
       port: 6379
