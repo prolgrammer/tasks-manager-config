@@ -6,9 +6,8 @@ eureka:
       preferIpAddress: true
 app:
   jwt:
-    secret: 
-      refresh: 1234
-      acess: 1234
+    secret-refresh: 1234
+    secret-access: 1234
     expiration-refresh: 2592000
     expiration-access: 300
     issuer: spring-app-tasks-manager
