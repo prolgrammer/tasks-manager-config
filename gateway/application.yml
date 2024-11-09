@@ -24,19 +24,19 @@ spring:
             uri: lb://user.service
             predicates:
               - Path=/api/users/**
-        default-filters:
-          - DedupeResponseHeader=Access-Control-Allow-Credentials Access-Control-Allow-Origin
-        globalcors:
-          corsConfigurations:
-            '[/**]':
-              allowedOrigins: "http://localhost:5173"
-              allowedHeaders: "*"
-              allowedMethods:
-                - GET
-                - POST
-                - DELETE
-                - PUT
-                - OPTIONS
+      default-filters:
+        - DedupeResponseHeader=Access-Control-Allow-Credentials Access-Control-Allow-Origin
+      globalcors:
+        corsConfigurations:
+          '[/**]':
+            allowedOrigins: "http://localhost:5173"
+            allowedHeaders: "*"
+            allowedMethods:
+              - GET
+              - POST
+              - DELETE
+              - PUT
+              - OPTIONS
       discovery:
         locator:
           enabled: 'true'
