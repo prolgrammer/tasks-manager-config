@@ -24,15 +24,15 @@ spring:
             uri: lb://user.service
             predicates:
               - Path=/api/users/**
-      globalcors:
-        cors-configurations:
-          '[/**]':
-            allowedOrigins: "http://localhost:5173"
-            allowedMethods:
-            - GET
-            - POST
-            - PUT
-            - DELETE
+        globalcors:
+          cors-configurations:
+            '[/**]':
+              allowedOrigins: "http://localhost:5173"
+              allowedMethods:
+              - GET
+              - POST
+              - PUT
+              - DELETE
       discovery:
         locator:
           enabled: 'true'
