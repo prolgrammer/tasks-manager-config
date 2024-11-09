@@ -24,8 +24,6 @@ spring:
             uri: lb://user.service
             predicates:
               - Path=/api/users/**
-      default-filters:
-        - DedupeResponseHeader=Access-Control-Allow-Credentials Access-Control-Allow-Origin
       globalcors:
         corsConfigurations:
           '[/**]':
