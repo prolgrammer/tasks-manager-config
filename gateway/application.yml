@@ -29,10 +29,10 @@ spring:
             '[/**]':
               allowedOrigins: "http://localhost/5173"
               allowedMethods:
-              - GET
-              - POST
-              - PUT
-              - DELETE
+                - GET
+                - POST
+                - PUT
+                - DELETE
       discovery:
         locator:
           enabled: 'true'
