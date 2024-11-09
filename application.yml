@@ -15,6 +15,7 @@ app:
   gateway:
     service-secret: 1234
     host: http://gateway:8080
+  cors-origin: http://localhost:5173
 spring:
   jpa:
     hibernate:
