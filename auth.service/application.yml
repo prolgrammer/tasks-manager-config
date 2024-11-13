@@ -16,6 +16,9 @@ spring:
   kafka:
     consumer:
       group-id: auth.service
+      alue-deserializer: org.springframework.kafka.support.serializer.ErrorHandlingDeserializer
+      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+      value-deserializer-class: org.apache.kafka.common.serialization.ByteArrayDeserializer
 app:
   sign-up:
     admin:
