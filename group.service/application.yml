@@ -2,14 +2,14 @@ server:
   port: 8080
 spring:
   application:
-    name: user.service
+    name: gruop.service
   datasource:
-    url: jdbc:postgresql://postgresdb:5432/user_service
+    url: jdbc:postgresql://postgresdb:5432/group_service
     username: postgres
     password: 1234
   data:
     redis:
-      database: 2
+      database: 4
       host: redis
       port: 6379
       password: 1234
